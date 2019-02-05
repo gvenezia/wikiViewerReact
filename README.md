@@ -1,3 +1,28 @@
+# Wikipedia Article Viewer
+
+This is essentially a clone of an earlier project inspired by the following quote: 
+> "It is not possible to write complex, efficient and easy to maintain UIs with Vanilla JavaScript. That’s the main reason you need a modern JavaScript framework."
+
+Granted, this UI isn't all that complex, but I wanted to see at what point it made sense to transition from Vanilla JS to a framework. In theory it seems like even smaller applications could benefit from a front-end framework. If the amount of work is similar, then the potential for scaling up would tip the scale in favor of front-end frameworks.
+
+## User Stories (in progress)
+* ~~Users can type in any word and the 10 top Wikipedia page results will be displayed in a concise fashion~~
+* ~~Results update automatically as the user types~~
+* ~~Users can click on any of the page containers to be redirected to the corresponding Wikipedia page~~
+* ~~Users can click on the random article button and be redirected to a random Wikipedia page~~
+
+## How was it made?
+Built with 
+* React
+* JSX
+* Wikipedia API
+* HTML
+* CSS
+* Semantic UI
+
+
+***  
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
