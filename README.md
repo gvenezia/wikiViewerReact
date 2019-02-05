@@ -1,7 +1,10 @@
 # Wikipedia Article Viewer
 
-This is essentially a clone of an earlier project inspired by the following quote: 
-> "It is not possible to write complex, efficient and easy to maintain UIs with Vanilla JavaScript. That’s the main reason you need a modern JavaScript framework."
+Displays wikipedia cards items that are relevant to the users input.
+
+## Why'd you build it?
+This project is essentially a clone of an earlier project inspired by the following quote: 
+> "It is not possible to write complex, efficient and easy to maintain UIs with Vanilla JavaScript. That’s the main reason you need a modern JavaScript framework." - *[Alberto Gimeno](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445)*
 
 Granted, this UI isn't all that complex, but I wanted to see at what point it made sense to transition from Vanilla JS to a framework. In theory it seems like even smaller applications could benefit from a front-end framework. If the amount of work is similar, then the potential for scaling up would tip the scale in favor of front-end frameworks.
 
