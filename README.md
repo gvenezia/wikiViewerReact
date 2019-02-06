@@ -9,9 +9,9 @@ This project is essentially a reconsideration of an earlier project inspired by 
 Since the wikiViewer UI isn't all that complex, I wanted to see if this project was close to the point at which it makes sense to transition from Vanilla JS to a framework. In theory it seems like even smaller applications could benefit from a front-end framework. If the amount of work is similar, then the potential for scaling up and component reuse would tip the scale in favor of front-end frameworks.
 
 ## User Stories (in progress)
-* ~~Users can type in any word and the 10 top Wikipedia page results will be displayed in a concise fashion~~
-* ~~Results update automatically as the user types~~
-* ~~Users can click on any of the page containers to be redirected to the corresponding Wikipedia page~~
+* Users can type in any word and the 10 top Wikipedia page results will be displayed in a concise fashion
+* ~~Results update automatically as the user types~~ (in progress)
+* Users can click on any of the page containers to be redirected to the corresponding Wikipedia page
 * Users can click on the random article button and be redirected to a random Wikipedia page
 
 ## How was it made?
