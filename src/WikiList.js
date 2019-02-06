@@ -19,12 +19,13 @@ class WikiList extends Component {
 	         //  wikiEntriesJSX += `<p> ${wikiEntries[i].snippet}</p>`;
           // wikiEntriesJSX += `</a>`;
           let wikiEntryURL = 'https://en.wikipedia.org/wiki/' + wikiEntries[i].title;
+          let scrubbedSnippet = wikiEntries[i].snippet.replace(/<[\s\w-/="]+>/g, '');
 
           wikiEntriesJSX.push(
           	<a key={i} href={ wikiEntryURL}>
-          		<div class="ui raised very padded text container segment">
-  							<h2 class="ui header">{wikiEntries[i].title}</h2>
-		          	<p>{wikiEntries[i].snippet} </p>
+          		<div className="ui raised very padded text container segment">
+  							<h2 className="ui header">{wikiEntries[i].title}</h2>
+		          	<p>{scrubbedSnippet} </p>
 	          	</div>	
           	</a>
         	);	
