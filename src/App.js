@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 // import './App.css';
 import SearchBar from './SearchBar';
+import WikiList from './WikiList';
 
 class App extends Component {
   state = {wikiEntries: []}
