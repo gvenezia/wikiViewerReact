@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import './App.css';
+// import './App.css';
 import SearchBar from './SearchBar';
 
 class App extends Component {
-  
 
   onSearchSubmit(searchTerm){
     console.log(searchTerm);

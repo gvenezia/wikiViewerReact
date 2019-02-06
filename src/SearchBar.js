@@ -1,13 +1,19 @@
-import React from 'react';
-import axios from 'axios';
+import React, { Component } from 'react';
+// import axios from 'axios';
 
-class SearchBar extends React.Component {
+class SearchBar extends Component {
 	state = {searchTerm: 'car'};
 
 	render() {
 		return(
 			<div className="ui segment">	
-				<form className="ui form">
+				<form className="ui form"
+							onSubmit={ event =>{
+									event.preventDefault()
+									this.props.onSearchBarSubmit()
+								} 
+							}
+				>
 					<div className="field">
 						<input 
 							type="text"
