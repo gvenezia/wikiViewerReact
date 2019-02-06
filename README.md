@@ -6,7 +6,7 @@ Displays wikipedia cards items that are relevant to the users input.
 This project is essentially a clone of an earlier project inspired by the following quote: 
 > "It is not possible to write complex, efficient and easy to maintain UIs with Vanilla JavaScript. That’s the main reason you need a modern JavaScript framework." - *[Alberto Gimeno](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445)*
 
-Granted, this UI isn't all that complex, but I wanted to see at what point it made sense to transition from Vanilla JS to a framework. In theory it seems like even smaller applications could benefit from a front-end framework. If the amount of work is similar, then the potential for scaling up would tip the scale in favor of front-end frameworks.
+Since this UI isn't all that complex, I wanted to see if this project was close to the  point at which it makes sense to transition from Vanilla JS to a framework. In theory it seems like even smaller applications could benefit from a front-end framework. If the amount of work is similar, then the potential for scaling up and component reuse would tip the scale in favor of front-end frameworks.
 
 ## User Stories (in progress)
 * ~~Users can type in any word and the 10 top Wikipedia page results will be displayed in a concise fashion~~
