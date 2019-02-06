@@ -18,15 +18,25 @@ class WikiList extends Component {
 	         //  wikiEntriesJSX += `<h3>${wikiEntries[i].title} </h3>`;
 	         //  wikiEntriesJSX += `<p> ${wikiEntries[i].snippet}</p>`;
           // wikiEntriesJSX += `</a>`;
+          let wikiEntryURL = 'https://en.wikipedia.org/wiki/' + wikiEntries[i].title;
 
-          wikiEntriesJSX.push(<a href={'https://en.wikipedia.org/wiki/' + wikiEntries[i].title}>);
-	          wikiEntriesJSX.push(<h3>{wikiEntries[i].title} </h3>);
-	          wikiEntriesJSX.push(<p> {wikiEntries[i].snippet}</p>);
-          wikiEntriesJSX.push(</a>);
+          wikiEntriesJSX.push(
+          	<a key={i} href={ wikiEntryURL}>
+          		<div class="ui raised very padded text container segment">
+  							<h2 class="ui header">{wikiEntries[i].title}</h2>
+		          	<p>{wikiEntries[i].snippet} </p>
+	          	</div>	
+          	</a>
+        	);	
+
       }
     // }
 
-		return <div>{wikiEntriesJSX}</div>;
+		return (
+			<div id="wiki-container" className="ui container">
+				{wikiEntriesJSX}
+			</div>
+		)	
 	}
 
 }
