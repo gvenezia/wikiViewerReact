@@ -32,6 +32,7 @@ class App extends Component {
               {/* <i class="fas fa-random"></i> */}
           </button>
         </a>
+        <WikiList wikiEntries={this.state.wikiEntries}/>
       </div>  
     );
   }
