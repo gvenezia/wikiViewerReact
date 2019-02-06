@@ -23,8 +23,7 @@ class App extends Component {
     return (
       <div className="ui container" style={{ marginTop: '10px', width: '500px'}}>
         <SearchBar onSearchBarSubmit={this.onSearchSubmit} />
-        <a className="" 
-          target="_blank" 
+        <a target="_blank" 
           rel="noopener noreferrer"
           href="https://en.wikipedia.org/wiki/Special:Random">
           <button className="ui primary button">

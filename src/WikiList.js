@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './WikiList.css'
 
 class WikiList extends Component {
 
@@ -11,12 +12,16 @@ class WikiList extends Component {
       let scrubbedSnippet = wikiEntries[i].snippet.replace(/<[\s\w-/="]+>/g, '');
 
       wikiEntriesJSX.push(
-      	<a key={i} href={ wikiEntryURL}>
-      		<div className="ui raised very padded text container segment">
+      	
+    		<div key={i} className="ui raised very padded text container segment wiki-return-element">
+      		<a target="_blank" 
+          	rel="noopener noreferrer" 
+      			href={ wikiEntryURL}>
 						<h2 className="ui header">{wikiEntries[i].title}</h2>
           	<p>{scrubbedSnippet}</p>
-        	</div>	
+        	
       	</a>
+      	</div>	
     	);	
     }
 
