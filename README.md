@@ -2,10 +2,13 @@
 Displays wikipedia cards items that are relevant to the users input.
 
 [View it on Codepen](https://codepen.io/gvenezia/full/GzQvjN)
-[View the original version written in Vanilla JS](https://codepen.io/gvenezia/full/EQLrGr)
+
+This project is a reconsideration of an earlier Wiki Viewer written in Vanilla JS:
+[Github](https://github.com/gvenezia/wikiViewer)
+[Codepen](https://codepen.io/gvenezia/full/EQLrGr)
 
 ## Why'd you build it?
-This project is essentially a reconsideration of an earlier project inspired by the following quote: 
+I was inspired to recreate my earlier Wiki Viewer by the following quote: 
 > "It is not possible to write complex, efficient and easy to maintain UIs with Vanilla JavaScript. That’s the main reason you need a modern JavaScript framework." - *[Alberto Gimeno](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445)*
 
 Since the wikiViewer UI isn't all that complex, I wanted to see if this project was close to the point at which it makes sense to transition from Vanilla JS to a framework. In theory it seems like even smaller applications could benefit from a front-end framework. If the amount of work is similar, then the potential for scaling up and component reuse would tip the scale in favor of front-end frameworks.
