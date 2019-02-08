@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import axios from 'axios';
 
 class SearchBar extends Component {
-	state = {searchTerm: 'car'};
+	state = {searchTerm: ''};
 
 	render() {
 		return(
@@ -18,7 +18,12 @@ class SearchBar extends Component {
 						<input 
 							type="text"
 							value={this.state.searchTerm}
-							onChange={ event => this.setState({searchTerm: event.target.value}) } />
+							onChange={ event => {
+									this.props.onSearchChange(event.target.value)
+									this.setState({searchTerm: event.target.value}) 
+								}
+							} 
+						/>
 					</div>	
 				</form>	
 			</div>

@@ -8,7 +8,7 @@ class App extends Component {
   state = {wikiEntries: []}
 
   // declare as nested arrow function in order to bind `this` properly
-  onSearchSubmit = searchTerm => {
+  getWikiList = searchTerm => {
     console.log(searchTerm);
     axios.get(`https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${searchTerm}&prop=revisions&rvprop=content&format=json&formatversion=2&origin=*`)
       .then( results => {
@@ -22,7 +22,16 @@ class App extends Component {
   render() {
     return (
       <div className="ui container" style={{ marginTop: '10px', width: '500px'}}>
-        <SearchBar onSearchBarSubmit={this.onSearchSubmit} />
+        <h1 className="ui header">
+            Wikipedia Viewer     
+        </h1>    
+        <p>
+            <em>Just start typing to search for relevant articles, or go to a random article</em>
+        </p>  
+        <SearchBar 
+          onSearchChange={this.getWikiList}
+          onSearchBarSubmit={this.getWikiList} 
+        />
         <a target="_blank" 
           rel="noopener noreferrer"
           href="https://en.wikipedia.org/wiki/Special:Random">

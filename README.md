@@ -10,7 +10,7 @@ Since the wikiViewer UI isn't all that complex, I wanted to see if this project 
 
 ## User Stories (in progress)
 * Users can type in any word and the 10 top Wikipedia page results will be displayed in a concise fashion
-* ~~Results update automatically as the user types~~ (in progress)
+* Results update automatically as the user types
 * Users can click on any of the page containers to be redirected to the corresponding Wikipedia page
 * Users can click on the random article button and be redirected to a random Wikipedia page
 
