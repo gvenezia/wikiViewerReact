@@ -21,12 +21,17 @@ class App extends Component {
 
   render() {
     return (
-      <div className="ui container" style={{ marginTop: '10px', width: '500px'}}>
+      <div className="ui container" style={{ marginTop: '20px', width: '500px'}}>
         <h1 className="ui header">
             Wikipedia Viewer     
         </h1>    
         <p>
-            <em>Just start typing to search for relevant articles, or go to a random article</em>
+            <em>Just start typing to search for relevant articles, or go to a random article.</em>
+            <br/>
+            <em>Click on any article card to redirect to that Wikipedia page in another tab.</em>
+        </p> 
+        <p>
+            
         </p>  
         <SearchBar 
           onSearchChange={this.getWikiList}
