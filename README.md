@@ -1,6 +1,7 @@
 # Wikipedia Article Viewer
-
 Displays wikipedia cards items that are relevant to the users input.
+
+[View it on Codepen](https://codepen.io/gvenezia/full/GzQvjN)
 
 ## Why'd you build it?
 This project is essentially a reconsideration of an earlier project inspired by the following quote: 
