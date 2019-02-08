@@ -30,9 +30,6 @@ class App extends Component {
             <br/>
             <em>Click on any article card to redirect to that Wikipedia page in another tab.</em>
         </p> 
-        <p>
-            
-        </p>  
         <SearchBar 
           onSearchChange={this.getWikiList}
           onSearchBarSubmit={this.getWikiList} 
