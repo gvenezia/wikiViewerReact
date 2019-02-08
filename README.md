@@ -2,6 +2,7 @@
 Displays wikipedia cards items that are relevant to the users input.
 
 [View it on Codepen](https://codepen.io/gvenezia/full/GzQvjN)
+[View the original version written in Vanilla JS](https://codepen.io/gvenezia/full/EQLrGr)
 
 ## Why'd you build it?
 This project is essentially a reconsideration of an earlier project inspired by the following quote: 
